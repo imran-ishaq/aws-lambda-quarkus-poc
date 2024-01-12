@@ -1,0 +1,58 @@
+{
+  "version": "1.0",
+  "resource": "/example-resource",
+  "path": "/create",
+  "httpMethod": "GET",
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer abc123"
+  },
+  "multiValueHeaders": {
+    "Accept": ["application/json", "text/plain"]
+  },
+  "queryStringParameters": {
+    "param1": "value1",
+    "param2": "value2"
+  },
+  "multiValueQueryStringParameters": {
+    "param3": ["value3a", "value3b"]
+  },
+  "pathParameters": {
+    "id": "123"
+  },
+  "stageVariables": {
+    "env": "dev"
+  },
+  "requestContext": {
+    "resourceId": "resource-id-123",
+    "resourcePath": "/example-resource",
+    "httpMethod": "GET",
+    "extendedRequestId": "extended-request-id-123",
+    "requestTime": "01/01/2024 12:00:00",
+    "path": "/example-path",
+    "accountId": "account-id-123",
+    "protocol": "HTTP/1.1",
+    "stage": "dev",
+    "domainPrefix": "prefix",
+    "requestTimeEpoch": 1641062400000,
+    "requestId": "request-id-123",
+    "identity": {
+      "cognitoIdentityPoolId": null,
+      "accountId": null,
+      "cognitoIdentityId": null,
+      "caller": null,
+      "sourceIp": "127.0.0.1",
+      "principalOrgId": null,
+      "accessKey": null,
+      "cognitoAuthenticationType": null,
+      "cognitoAuthenticationProvider": null,
+      "userArn": null,
+      "userAgent": "Postman",
+      "user": null
+    },
+    "domainName": "example.com",
+    "apiId": "api-id-123"
+  },
+  "body": "{\"key1\":\"value1\",\"key2\":\"value2\"}",
+  "isBase64Encoded": false
+}
